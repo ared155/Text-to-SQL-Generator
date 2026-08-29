@@ -39,12 +39,34 @@ text-to-sql/
 
 ---
 
-
----
-
 ## 🧰 Installation
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/ared155/Text-to-SQL-Generator.git
    cd Text-to-SQL-Generator
+
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Set up environment variables**
+   Create a .env file in the project root:
+   ```bash
+   GROQ_API_KEY=your_api_key_here
+
+---
+
+## 🖥️ Usage
+1. **▶️ Run the Streamlit app**
+   ```bash
+   streamlit run src/app.py
+
+2. **💬 Or Run from terminal**
+   ```bash
+   python src/main.py
