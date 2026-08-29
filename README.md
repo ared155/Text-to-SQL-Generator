@@ -71,7 +71,7 @@ Built with **LangChain**, **Pydantic**, and **Streamlit**, this project bridges 
    ```bash
    python src/main.py
 
---
+---
 
 ## 🧠 Tech Stack
 | Component | Purpose |
@@ -82,7 +82,7 @@ Built with **LangChain**, **Pydantic**, and **Streamlit**, this project bridges 
 | **SQLite** | Lightweight demo database |
 | **Groq/OpenAI API** | LLM backend for query generation |
 
---
+---
 
 ## ⚙️Example Output
 ```bash
