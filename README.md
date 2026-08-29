@@ -1,0 +1,38 @@
+# 🧠 Text‑to‑SQL Generator
+
+An AI‑powered tool that converts **natural‑language questions** into **safe, executable SQL queries**.  
+Built with **LangChain**, **Pydantic**, and **Streamlit**, this project bridges the gap between human language and structured database queries.
+
+---
+
+## 🚀 Features
+
+- **Natural‑Language to SQL Conversion** – Ask questions like “Show all customers from Bangalore,” and get valid SQL instantly.  
+- **Schema Awareness** – The model uses your database schema to ensure accurate table and column references.  
+- **Safe Query Validation** – Automatically blocks destructive queries (`DROP`, `DELETE`, `UPDATE`, etc.).  
+- **Explainable Output** – Returns a JSON object with:
+  - `sql_query`
+  - `explanation`
+  - `tables_used`
+  - `conditions_applied`
+- **Streamlit Interface** – Simple, interactive UI for entering questions and viewing results.
+
+---
+
+## 🧩 Project Structure
+
+text-to-sql/
+│
+├── src/
+│   ├── main.py               # Core logic and execution loop
+│   ├── app.py                # Streamlit UI
+│   ├── model.py              # LLM configuration (Groq/OpenAI)
+│   ├── prompt.py             # Basic prompt template
+│   ├── pydantic_parsing.py   # Pydantic schema definition
+│   ├── pydantic_prompt.py    # Prompt + parser using PydanticOutputParser
+│   ├── parser.py             # JSON/Pydantic output parser
+│   └── demo.db               # Sample SQLite database
+│
+├── requirements.txt          # Python dependencies
+├── .env                      # Environment variables (API keys)
+└── README.md                 # Project documentation
