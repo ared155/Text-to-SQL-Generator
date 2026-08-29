@@ -81,3 +81,15 @@ text-to-sql/
 | **Streamlit** | Interactive web interface |
 | **SQLite** | Lightweight demo database |
 | **Groq/OpenAI API** | LLM backend for query generation |
+
+--
+
+## ⚙️Example Output
+```bash
+{
+  "sql_query": "SELECT name, age FROM employees WHERE age > 30;",
+  "explanation": "Retrieves names and ages of employees older than 30.",
+  "tables_used": ["employees"],
+  "conditions_applied": ["age > 30"]
+}
+
