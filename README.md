@@ -36,3 +36,15 @@ text-to-sql/
 ├── requirements.txt          # Python dependencies
 ├── .env                      # Environment variables (API keys)
 └── README.md                 # Project documentation
+
+---
+
+
+---
+
+## 🧰 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ared155/Text-to-SQL-Generator.git
+   cd Text-to-SQL-Generator
