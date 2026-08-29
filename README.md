@@ -21,22 +21,22 @@ Built with **LangChain**, **Pydantic**, and **Streamlit**, this project bridges 
 
 ## 🧩 Project Structure
 
-```plaintext
-text-to-sql/
-│
-├── src/
-│   ├── main.py               # Core logic and execution loop
-│   ├── model.py              # LLM configuration (Groq/OpenAI)
-│   ├── prompt.py             # Basic prompt template
-│   ├── pydantic_parsing.py   # Pydantic schema definition
-│   ├── pydantic_prompt.py    # Prompt + parser using PydanticOutputParser
-│   ├── parser.py             # JSON/Pydantic output parser
-│
-│── app.py                    # Streamlit UI
-├── requirements.txt          # Python dependencies
-├── .env                      # Environment variables (API keys)
-│── demo.db                   # Sample SQLite database
-└── README.md                 # Project documentation
+    ```plaintext
+    text-to-sql/
+    │
+    ├── src/
+    │   ├── main.py               # Core logic and execution loop
+    │   ├── model.py              # LLM configuration (Groq/OpenAI)
+    │   ├── prompt.py             # Basic prompt template
+    │   ├── pydantic_parsing.py   # Pydantic schema definition
+    │   ├── pydantic_prompt.py    # Prompt + parser using PydanticOutputParser
+    │   ├── parser.py             # JSON/Pydantic output parser
+    │
+    │── app.py                    # Streamlit UI
+    ├── requirements.txt          # Python dependencies
+    ├── .env                      # Environment variables (API keys)
+    │── demo.db                   # Sample SQLite database
+    └── README.md                 # Project documentation
 
 ---
 
