@@ -26,10 +26,8 @@ Built with **LangChain**, **Pydantic**, and **Streamlit**, this project bridges 
     ├── src/
     │   ├── main.py               # Core logic and execution loop
     │   ├── model.py              # LLM configuration (Groq/OpenAI)
-    │   ├── prompt.py             # Basic prompt template
     │   ├── pydantic_parsing.py   # Pydantic schema definition
-    │   ├── pydantic_prompt.py    # Prompt + parser using PydanticOutputParser
-    │   ├── parser.py             # JSON/Pydantic output parser
+    │   └──pydantic_prompt.py    # Prompt + parser using PydanticOutputParser
     │
     │── app.py                    # Streamlit UI
     ├── requirements.txt          # Python dependencies
