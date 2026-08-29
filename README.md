@@ -21,7 +21,6 @@ Built with **LangChain**, **Pydantic**, and **Streamlit**, this project bridges 
 
 ## 🧩 Project Structure
 
-      ```plaintext
     text-to-sql/
     │
     ├── src/
