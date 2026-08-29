@@ -70,3 +70,14 @@ text-to-sql/
 2. **💬 Or Run from terminal**
    ```bash
    python src/main.py
+
+--
+
+## 🧠 Tech Stack
+| Component | Purpose |
+| --- | --- |
+| **LangChain** | LLM orchestration and prompt chaining |
+| **Pydantic** | Structured output validation |
+| **Streamlit** | Interactive web interface |
+| **SQLite** | Lightweight demo database |
+| **Groq/OpenAI API** | LLM backend for query generation |
